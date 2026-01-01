@@ -3,56 +3,56 @@ import { Camera } from '../types';
 export const cameras: Camera[] = [
   {
     id: '1',
-    title: 'Морской порт',
+    name: 'Морской порт',
     location: 'Центральный район',
-    coordinates: [43.5806, 39.7191],
-    thumbnail: 'https://images.unsplash.com/photo-1565625434690-092523298c7d?q=80&w=600&auto=format&fit=crop',
-    isLive: true,
-    views: 1240
+    lat: 43.5806,
+    lng: 39.7188,
+    previewUrl: 'https://images.unsplash.com/photo-1565363887713-7d3539d45d0f?auto=format&fit=crop&q=80&w=600',
+    status: 'online'
   },
   {
     id: '2',
-    title: 'Роза Хутор, Ратуша',
+    name: 'Роза Хутор, Ратуша',
     location: 'Красная Поляна',
-    coordinates: [43.6712, 40.2974],
-    thumbnail: 'https://images.unsplash.com/photo-1612456225451-bb8d10d0131d?q=80&w=600&auto=format&fit=crop',
-    isLive: true,
-    views: 856
+    lat: 43.6719,
+    lng: 40.2974,
+    previewUrl: 'https://images.unsplash.com/photo-1612459841838-51f6182ee30d?auto=format&fit=crop&q=80&w=600',
+    status: 'online'
   },
   {
     id: '3',
-    title: 'Олимпийский парк',
-    location: 'Сириус',
-    coordinates: [43.4044, 39.9545],
-    thumbnail: 'https://images.unsplash.com/photo-1575276369206-8e547343d3b7?q=80&w=600&auto=format&fit=crop',
-    isLive: false,
-    views: 3200
+    name: 'Олимпийский парк',
+    location: 'Адлер',
+    lat: 43.4026,
+    lng: 39.9555,
+    previewUrl: 'https://images.unsplash.com/photo-1575276630809-541577708604?auto=format&fit=crop&q=80&w=600',
+    status: 'online'
   },
   {
     id: '4',
-    title: 'Пляж Ривьера',
+    name: 'Пляж Ривьера',
     location: 'Центральный район',
-    coordinates: [43.5867, 39.7135],
-    thumbnail: 'https://images.unsplash.com/photo-1596306499300-0b7b1689b9e6?q=80&w=600&auto=format&fit=crop',
-    isLive: true,
-    views: 543
+    lat: 43.5855,
+    lng: 39.7139,
+    previewUrl: 'https://images.unsplash.com/photo-1596306499317-84902295986c?auto=format&fit=crop&q=80&w=600',
+    status: 'online'
   },
   {
     id: '5',
-    title: 'Скайпарк',
+    name: 'Скайпарк',
     location: 'Ахштырское ущелье',
-    coordinates: [43.5248, 39.9954],
-    thumbnail: 'https://images.unsplash.com/photo-1544473244-f6895e672d1a?q=80&w=600&auto=format&fit=crop',
-    isLive: true,
-    views: 99
+    lat: 43.5249,
+    lng: 39.9954,
+    previewUrl: 'https://images.unsplash.com/photo-1544634076-a901606f4180?auto=format&fit=crop&q=80&w=600',
+    status: 'offline'
   },
   {
     id: '6',
-    title: 'ЖД Вокзал',
-    location: 'Адлер',
-    coordinates: [43.4485, 39.9118],
-    thumbnail: 'https://images.unsplash.com/photo-1530272638848-2616d0004128?q=80&w=600&auto=format&fit=crop',
-    isLive: false,
-    views: 412
+    name: 'ЖД Вокзал Сочи',
+    location: 'Центр',
+    lat: 43.5918,
+    lng: 39.7275,
+    previewUrl: 'https://images.unsplash.com/photo-1533052448373-d922316b2518?auto=format&fit=crop&q=80&w=600',
+    status: 'online'
   }
 ];
