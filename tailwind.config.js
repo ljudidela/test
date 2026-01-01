@@ -10,7 +10,7 @@ export default {
         sochi: {
           blue: '#0077be',
           sand: '#f4e4bc',
-          green: '#2e8b57'
+          dark: '#1a1a1a'
         }
       }
     },
