@@ -1,10 +1,10 @@
 export interface Camera {
   id: string;
-  title: string;
+  name: string;
   location: string;
-  coordinates: [number, number];
-  thumbnail: string;
+  lat: number;
+  lng: number;
+  previewUrl: string;
   streamUrl?: string;
-  isLive: boolean;
-  views: number;
+  status: 'online' | 'offline';
 }
